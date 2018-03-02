@@ -6,7 +6,8 @@ install:
   - npm install
 
 script:
-	- npm build
+	- bundle exec rake build
+	- bundle exec rake builddoc
 
 after_success:
   - cd dist
