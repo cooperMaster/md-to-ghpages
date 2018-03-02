@@ -4,7 +4,8 @@
   "description": "md convert to html",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build":"loppo --site \"MD convert html\" --theme hym"
   },
   "repository": {
     "type": "git",

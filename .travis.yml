@@ -6,7 +6,7 @@ install:
   - npm install
 
 script:
-	- build "loppo --site \"MD convert html\" --theme hym"
+	- npm build
 
 after_success:
   - cd dist
