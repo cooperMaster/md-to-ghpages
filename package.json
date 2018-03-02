@@ -1,0 +1,27 @@
+{
+  "name": "md-to-ghpages",
+  "version": "1.0.0",
+  "description": "md convert to html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cooperMaster/md-to-ghpages.git"
+  },
+  "keywords": [
+    "md",
+    "html"
+  ],
+  "author": "hym",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cooperMaster/md-to-ghpages/issues"
+  },
+  "homepage": "https://github.com/cooperMaster/md-to-ghpages#readme",
+  "dependencies": {
+    "loppo": "latest",
+    "loppo-theme-hym": "latest"
+  }
+}

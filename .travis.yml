@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+	- "5.6.0"
+	
+install:
+  - npm install
+
+script:
+	- build "loppo --site \"MD convert html\" --theme hym"
+
+after_success:
+  - cd dist
+  - git init
+  - git config user.name "${GH_USER_NAME}"
+  - git config user.email "{GH_USER_EMAIL}"
+  - git add . ; git commit -m "Deploy to GitHub Pages"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages 	
